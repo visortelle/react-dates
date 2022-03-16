@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import ReactDayPicker from 'react-day-picker/lib/src/DayPicker';
-import "react-day-picker/lib/style.css";
+import "./react-day-picker.css";
 import localeUtils from '../../dayjs/reactDayPickerUtils';
 import getMessage from '../translations';
 import { splitProps, zeroTime } from '../utils';
